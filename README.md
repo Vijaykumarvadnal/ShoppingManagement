@@ -17,3 +17,10 @@ Once database is created run below table script
     )
 
 Then you need to make changes to *appsettings.json* file under *ShoppingManagement* web project to have correct database connection string.
+
+Once all done set **ShoppingManagement** as startup project and run your project and start adding, editing i.e. CRUD operations from web app.
+
+Some of the other configurations like **OAuth2** by using **github** has been implemented and commented in this project for the reference.
+
+Also I have added **ShoppingManagement.Test** project to the same solution using **XUnit**, There I already have added couple of test methods for controller.
+
